@@ -29,7 +29,9 @@
 /Essentials/nbproject/private/
 /Essentials/dist/
 /Essentials/build/
-/YamlAnnotations/
+/YamlAnnotations/dist/
+/YamlAnnotations/build/
+/YamlAnnotations/nbproject/private/
 /EssentialsUpdate/nbproject/private/
 /EssentialsUpdate/build/
 /EssentialsUpdate/dist/
