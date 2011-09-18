@@ -1,0 +1,27 @@
+# This determines the command prefix when there are conflicts (/name:home, /name:help, etc.)
+name: EssentialsUpdate
+main: com.earth2me.essentials.update.EssentialsUpdate
+# Note to developers: This next line cannot change, or the automatic versioning system will break.
+version: TeamCity
+description: This plugin allows to install or update all Essentials plugins
+authors: [snowleo]
+commands:
+  essentialsinstall:
+    description: Install the Essentials plugins.
+    usage: /<command>
+  essentialsupdate:
+    description: Update the Essentials plugins.
+    usage: /<command>
+  essentialshelp:
+    description: Get help from the Essentials support chat.
+    usage: /<command>
+permissions:
+  essentials.install:
+    description: Allows you to install Essentials
+    default: op
+  essentials.update:
+    description: Allows you to update Essentials
+    default: op
+  essentials.helpchat:
+    description: Allows you to join Essentials help chat
+    default: op
